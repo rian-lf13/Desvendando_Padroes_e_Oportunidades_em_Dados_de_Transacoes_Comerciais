@@ -117,7 +117,7 @@ def menu_principal():
                 print('Por favor, carregue e pré-processe os dados primeiro (Opção 1).')
             else:
                 figura = grafico_vendas_segmento(df_dados)
-                gerenciar_saida(figura, 'grafico_top_cidades_vendas', 'grafico')
+                gerenciar_saida(figura, 'grafico_vendas_segmento', 'grafico')
             input('\nPressione Enter para continuar...')
         
         elif opcao == '8':
